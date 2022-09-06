@@ -2,9 +2,10 @@
 LTO_ENABLE = yes
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
-VIAL_INSECURE = yes
+VIALRGB_ENABLE = yes
 
 # Trim Vial f/w
-QMK_SETTINGS = no
-COMBO_ENABLE = no
-KEY_OVERRIDE_ENABLE = no
+QMK_SETTINGS = no        # save eeprom
+TAP_DANCE_ENABLE = no    # save eeprom
+COMBO_ENABLE = no        # save eeprom
+KEY_OVERRIDE_ENABLE = no # save eeprom

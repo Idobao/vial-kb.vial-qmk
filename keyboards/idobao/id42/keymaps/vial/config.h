@@ -4,6 +4,8 @@
 #pragma once
 
 #define VIAL_KEYBOARD_UID {0x7D, 0x8B, 0xF8, 0x23, 0x75, 0xAA, 0xEB, 0xA6}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 1 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 11 }
 
 // Trim Vial f/w
 #define VIAL_TAP_DANCE_ENTRIES 4
